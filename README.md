@@ -8,7 +8,8 @@
 
 An AI-powered agricultural recommendation system that predicts the most suitable crop based on soil conditions and provides comprehensive cultivation guidance. Built with machine learning algorithms and featuring an interactive web interface.
 
-![Crop Prediction Demo](https://via.placeholder.com/800x400/667eea/ffffff?text=Smart+Crop+Prediction+System)
+<img width="1771" height="1039" alt="image" src="https://github.com/user-attachments/assets/e149b4cc-1341-4259-aa6b-4e768a0e5fae" />
+
 
 ## 🚀 Features
 
@@ -138,28 +139,18 @@ print(f"Confidence: {result['confidence']:.2%}")
 
 ## 📁 Project Structure
 
-```
 crop-prediction-system/
 │
-├── crop_predictor.py          # Main Python class with ML logic
-├── crop_prediction_ui.html    # Interactive web interface
-├── requirements.txt           # Python dependencies
-├── README.md                 # This file
-│
-├── data/
-│   └── Crop_production.csv   # Training dataset
-│
-├── models/
-│   └── crop_model.joblib     # Saved trained model
-│
-├── docs/
-│   ├── API.md                # API documentation
-│   └── MODEL.md              # Model details
-│
-└── examples/
-    ├── basic_usage.py        # Basic usage examples
-    └── web_integration.py    # Flask integration example
-```
+├── Crop_production.csv       # Training dataset with soil parameters and crop labels
+├── README.md                 # Project documentation and usage guide
+└── index.html                # Interactive web interface with ML prediction engine
+
+File Descriptions
+
+Crop_production.csv - Training dataset containing soil parameters (N, P, K, pH, rainfall, temperature) and corresponding crop labels
+README.md - Comprehensive documentation including setup, usage, and API reference
+index.html - Complete web application with embedded JavaScript ML logic and responsive UI
+
 
 ## 📡 API Documentation
 
@@ -320,35 +311,6 @@ flake8 crop_predictor.py
 2. Add prediction logic in the web interface
 3. Update documentation
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. **Make your changes**
-4. **Add tests for new functionality**
-5. **Commit your changes**
-   ```bash
-   git commit -m "Add amazing feature"
-   ```
-6. **Push to your branch**
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-7. **Open a Pull Request**
-
-### Code Style Guidelines
-
-- Follow PEP 8 for Python code
-- Use meaningful variable names
-- Add docstrings for all functions
-- Write comprehensive tests
-- Update documentation
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -363,17 +325,6 @@ python -c "from crop_predictor import CropPredictor; cp = CropPredictor(); cp.lo
 - Check browser console for JavaScript errors
 - Ensure all form fields are filled
 - Try refreshing the page
-
-**Low prediction accuracy**
-- Ensure dataset quality and size
-- Check for missing values
-- Verify feature engineering
-
-### Getting Help
-
-- 📧 Email: support@croppredict.com
-- 💬 Discord: [Join our community](https://discord.gg/croppredict)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/crop-prediction-system/issues)
 
 ## 📊 Performance Benchmarks
 
@@ -415,39 +366,6 @@ python -c "from crop_predictor import CropPredictor; cp = CropPredictor(); cp.lo
 - Blockchain integration for traceability
 - Advanced recommendation engine
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2024 Smart Crop Prediction System
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
-## 🙏 Acknowledgments
-
-- **Scikit-learn Team** for the excellent machine learning library
-- **Agricultural Research Community** for domain knowledge and datasets
-- **Open Source Contributors** who helped improve this project
-- **Beta Testers** who provided valuable feedback
-
-## 📈 Statistics
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/crop-prediction-system?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/crop-prediction-system?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/crop-prediction-system)
-![GitHub contributors](https://img.shields.io/github/contributors/yourusername/crop-prediction-system)
 
 ---
 
